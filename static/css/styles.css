@@ -47,6 +47,21 @@ body {
     background-color: black;
 }
 
+/* Palette BLUE */
+.palette-blue .burger-menu {
+    background-color: #98c1d9;
+    box-shadow: 0px 2px 20px -2px #98c1d9;
+}
+.palette-blue .burger-menu a {
+    color: #333333;
+}
+.palette-blue .burger-menu-icon-line {
+    background-color: #98c1d9;
+}
+.palette-blue .burger-menu-mobile-close:before, .burger-menu-mobile-close:after {
+    background-color: #333333;
+}
+
 /* Hamburger Menu Basics */
 .burger-menu {
     display: block;
