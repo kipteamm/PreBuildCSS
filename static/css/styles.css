@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 
-/* General Style MODERN */
+/* General style MODERN */
 .style-modern {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,6 +11,20 @@ body {
 }
 .style-modern a:hover {
     text-decoration: underline;
+}
+
+/* General style ROUNDED */
+.style-rounded {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.style-rounded a {
+    text-decoration: none;
+}
+.style-rounded a:hover {
+    text-decoration: underline;
+}
+.style-rounded .burger-menu-icon-line {
+    border-radius: 15px;
 }
 
 /* Font style BIG */ 
