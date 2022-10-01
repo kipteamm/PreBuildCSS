@@ -12,6 +12,14 @@ body {
 .style-modern a:hover {
     text-decoration: underline;
 }
+.style-modern form input {
+    display: block;
+}
+.style-modern input {
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
 
 /* General style ROUNDED */
 .style-rounded {
@@ -31,6 +39,9 @@ body {
 .font-big .burger-menu a {
     font-size: 25px;
 }
+.font-big input {
+    font-size: 20px;
+}
 
 /* Spacing OPEN */
 .space-open .burger-menu {
@@ -44,6 +55,14 @@ body {
 }
 .space-open .burger-menu-mobile {
     margin: 25px;
+}
+.space-open input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.primary-container.space-open ,
+.secondary-container.space-open {
+    padding: 25px;
 }
 
 /* Palette RED */
@@ -60,6 +79,9 @@ body {
 .palette-red .burger-menu-mobile-close:before, .burger-menu-mobile-close:after {
     background-color: black;
 }
+.primary-container.palette-red  {
+    background-color: #E3AfBC;
+}
 
 /* Palette BLUE */
 .palette-blue .burger-menu {
@@ -74,6 +96,15 @@ body {
 }
 .palette-blue .burger-menu-mobile-close:before, .burger-menu-mobile-close:after {
     background-color: #333333;
+}
+.palette-blue input:focus {
+    border-color: #98c1d9;
+    transition: .3s;
+}
+
+/* Containers */
+.primary-container {
+    display: inline-block;
 }
 
 /* Hamburger Menu Basics */
